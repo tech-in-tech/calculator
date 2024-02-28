@@ -15,23 +15,26 @@ body{
 
 }
 .claculator{
-  border: 2px solid rgb(244, 240, 240);
+  /* border: 2px solid rgb(244, 240, 240); */
   padding: 10px;
+  height: 100vh;
   border-radius: 20px;
   background: rgb(21, 21, 21);
   box-shadow: 0px 3px 15px ;
 }
 
 input{
-  width: 264px;
+  width: 250px;
   border: none;
-  padding: 24px 0px;
+  padding: 24px 10px;
   margin: 10px;
-  background: transparent;
-  box-shadow: 0px 3px 15px rgba(21, 205, 27, 0.1);
+  background: rgb(39, 39, 39);
+  /* box-shadow: -2px -1px 15px rgba(50, 220, 75, 0.6); */
   font-size: 40px;
   text-align: right;
   cursor: pointer;
+  font-size: 32px;
+  border-radius: 10px;
 }
 
 input::placeholder{
@@ -41,7 +44,7 @@ input::placeholder{
   border: none;
   width: 50px;
   height: 50px;
-  margin: 6px;
+  margin: 20px 6px;
   border-radius: 50%;
   background: transparent;
   color: #fff;
