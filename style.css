@@ -30,7 +30,7 @@ input {
   width: 100%;
   border: none;
   padding: 24px 10px;
-  margin: 40px 0px;
+  margin: 30px 0px;
   background: rgb(39, 39, 39);
   /* box-shadow: -2px -1px 15px rgba(50, 220, 75, 0.6); */
   font-size: 40px;
@@ -59,6 +59,6 @@ button {
 .green{
   background-color: rgb(5, 168, 33);
 }
-.orang{
+.orange{
   background-color: rgb(168, 95, 5);
 }
